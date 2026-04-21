@@ -1,0 +1,4 @@
+plugins
+.changelog*
+plugin_settings.json
+firefox.css

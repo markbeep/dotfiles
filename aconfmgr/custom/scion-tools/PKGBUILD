@@ -1,0 +1,40 @@
+# Maintainer: Mark
+pkgname=scion-tools
+pkgver=0.14.0
+pkgrel=1
+pkgdesc="SCION inter-domain network architecture - CLI tools (scion, scion-pki)"
+arch=('x86_64' 'aarch64')
+url="https://github.com/scionproto/scion"
+license=('Apache-2.0')
+depends=()
+makedepends=('go>=1.26.0')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/scionproto/scion/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('SKIP')
+
+prepare() {
+    cd "scion-${pkgver}"
+    mkdir -p bin
+}
+
+build() {
+    cd "scion-${pkgver}"
+
+    export CGO_ENABLED=0
+    export GOFLAGS="-buildvcs=false"
+
+    go build \
+        -trimpath \
+        -ldflags "-s -w" \
+        -o bin/ \
+        ./scion/cmd/scion \
+        ./scion-pki/cmd/scion-pki
+}
+
+package() {
+    cd "scion-${pkgver}"
+
+    install -Dm755 bin/scion     "${pkgdir}/usr/bin/scion"
+    install -Dm755 bin/scion-pki "${pkgdir}/usr/bin/scion-pki"
+
+    install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

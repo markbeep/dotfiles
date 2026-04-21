@@ -1,0 +1,28 @@
+# user info is imported
+[include]
+    path = ~/.gitconfig.user
+
+[alias]
+	c = commit
+	co = checkout
+	s = status
+	a = add
+	u = add -u
+	p = pull
+	ph = push
+	phf = push --force-with-lease
+	f = fetch --all
+	yolo = "!git commit --amend --no-edit && git push --force-with-lease"
+	# checkout a PR locally
+	pr = "!f() { git fetch origin pull/$1/head:pr-$1; }; f"
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true
+[pull]
+	ff = only
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

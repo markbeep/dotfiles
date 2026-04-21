@@ -1,0 +1,5 @@
+[zyre]
+depends = ["default", "dms", "niri"]
+
+[zyre.variables]
+zyre = true

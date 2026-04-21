@@ -1,0 +1,25 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+# Note: user name/email defined in conf.d/user.toml
+# [user]
+# name = "<name>"
+# email = "main@email.com"
+
+# [[--scope]]
+# --when.repositories = ["~/Documents/Subdir1", "~/Documents/Subdir2"]
+# [--scope.user]
+# name = "<name>"
+# email = "other@email.com"
+
+[ui]
+default-command = "log"
+diff-editor = ":builtin"
+
+[aliases]
+tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
+e = ["edit"]
+f = ["git", "fetch"]
+
+[revset-aliases]
+# Additionally makes any non-trunk pushed/remote branches immutable as well
+#"immutable_heads()" = "builtin_immutable_heads() | remote_bookmarks()"
