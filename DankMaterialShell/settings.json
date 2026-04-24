@@ -216,8 +216,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 78,
-      "lastUsed": 1776102822229,
+      "count": 97,
+      "lastUsed": 1777049877208,
       "name": "Firefox"
     }
   },
@@ -465,10 +465,6 @@
           "enabled": true
         },
         {
-          "id": "developerUtilities",
-          "enabled": true
-        },
-        {
           "id": "capsLockIndicator",
           "enabled": true
         },
@@ -486,6 +482,10 @@
         },
         {
           "id": "systemUpdate",
+          "enabled": true
+        },
+        {
+          "id": "displayManager",
           "enabled": true
         },
         {
