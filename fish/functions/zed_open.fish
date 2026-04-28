@@ -15,6 +15,6 @@ function zed_open
     if test -n "$directory"
         set -l clean_dir (string replace -ra '\e\[[0-9;]*m' '' -- "$directory")
         set -l formatted (echo "$clean_dir" | sed 's|^~/D/|/home/mark/Documents/|')
-        sh -c "cd '$formatted' && mise x -- zeditor ."
+        sh -c "cd '$formatted' && mise x -- zeditor --new ."
     end
 end
