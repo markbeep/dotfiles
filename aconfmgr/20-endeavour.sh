@@ -47,13 +47,14 @@ AddPackage eos-packagelist             # An application to gather and optionally
 AddPackage eos-rankmirrors             # EndeavourOS mirror ranking tool
 AddPackage eos-reboot-recommended      # Notify if a reboot is recommended after system upgrade.
 AddPackage ethtool                     # Utility for controlling network drivers and hardware
+AddPackage ex-vi-compat                # The ex and vi commands based on vim's compatibility modes
 AddPackage exfatprogs                  # exFAT filesystem userspace utilities for the Linux Kernel exfat driver
 AddPackage f2fs-tools                  # Tools for Flash-Friendly File System (F2FS)
 AddPackage ffmpegthumbnailer           # Lightweight video thumbnailer that can be used by file managers
 AddPackage ffmpegthumbs                # FFmpeg-based thumbnail creator for video files
 AddPackage firefox                     # Fast, Private & Safe Web Browser
-AddPackage firewalld                   # Firewall daemon with D-Bus interface
 AddPackage firewall-config             # Graphical user interface for firewallD configuration
+AddPackage firewalld                   # Firewall daemon with D-Bus interface
 AddPackage foomatic-db                 # Foomatic - The collected knowledge about printers, drivers, and driver options in XML files, used by foomatic-db-engine to generate PPD files.
 AddPackage foomatic-db-engine          # Foomatic - Foomatic's database engine generates PPD files from the data in Foomatic's XML database. It also contains scripts to directly generate print queues and handle jobs.
 AddPackage foomatic-db-gutenprint-ppds # simplified prebuilt ppd files
@@ -78,6 +79,7 @@ AddPackage hwdetect                    # Hardware detection script with loading 
 AddPackage hwinfo                      # Hardware detection tool from openSUSE
 AddPackage inetutils                   # A collection of common network programs
 AddPackage inxi                        # Full featured CLI system information tool
+AddPackage iptables                    # Linux kernel packet control tool (using nft interface)
 AddPackage iwd                         # Internet Wireless Daemon
 AddPackage jfsutils                    # JFS filesystem utilities
 AddPackage kate                        # Advanced text editor
@@ -176,7 +178,6 @@ AddPackage unzip                       # For extracting and viewing files in .zi
 AddPackage upower                      # Abstraction for enumerating power devices, listening to device events and querying history and statistics
 AddPackage usb_modeswitch              # Activating switchable USB devices on Linux.
 AddPackage usbutils                    # A collection of USB tools to query connected USB devices
-AddPackage ex-vi-compat                # The ex and vi commands based on vim's compatibility modes
 AddPackage vim                         # Vi Improved, a highly configurable, improved version of the vi text editor
 AddPackage wget                        # Network utility to retrieve files from the Web
 AddPackage which                       # A utility to show the full path of commands
@@ -261,7 +262,6 @@ AddPackage dolphin-plugins             # Extra Dolphin plugins
 AddPackage eos-breeze-sddm             # EndeavourOS SDDM theme for KDE plasma based on breeze.
 AddPackage eos-settings-plasma         # Plasma settings and theme for EndeavourOS
 AddPackage gwenview                    # A fast and easy to use image viewer
-AddPackage iptables                    # Linux kernel packet control tool (using nft interface)
 AddPackage kdeplasma-addons            # All kind of addons to improve your Plasma experience
 AddPackage kinfocenter                 # A utility that provides information about a computer system
 AddPackage kio-extras                  # Additional components to increase the functionality of KIO
@@ -281,8 +281,6 @@ AddPackage spectacle                   # KDE screenshot capture utility
 AddPackage xdg-desktop-portal-kde      # A backend implementation for xdg-desktop-portal using Qt/KF5
 
 # {{else if zyre}}
-AddPackage --foreign iptables-nft # Linux kernel packet control tool (using nft interface)
-
 CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
 CopyFile /etc/systemd/system/paccache.service
 CopyFile /etc/systemd/system/paccache.timer
