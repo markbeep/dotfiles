@@ -41,9 +41,9 @@ Remember to run `dots` before running `aconfmgr save`, since the config files ar
 The `aconfsave` abbreviation in fish is mapped to `dots && aconfmgr save` for this reason.
 
 To ease maintaing the `99-unsorted.sh` aconfmgr file, symlink it into the dotfiles directory. Then empty the file instead of deleting it, after running `aconfsave`.
- 
+
 ```sh
-ln --symbolic /home/mark/.config/aconfmgr/99-unsorted.sh /home/mark/.dotfiles/aconfmgr/99-unsorted.sh
+ln --symbolic $HOME/.config/aconfmgr/99-unsorted.sh $HOME/.dotfiles/aconfmgr/99-unsorted.sh
 ```
 
 Add `--force` if required.
