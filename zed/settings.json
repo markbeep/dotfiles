@@ -62,11 +62,20 @@
         "terminal": {
           "always_allow": [
             {
-              "pattern": "^cd\\b",
+              "pattern": "^cd\\b"
             },
             {
-              "pattern": "^grep\\b",
+              "pattern": "^grep\\b"
             },
+            {
+              "pattern": "^ls\\b"
+            },
+            {
+              "pattern": "^cat\\s+src/game/scenes/Game\\.ts(\\s|$)"
+            },
+            {
+              "pattern": "^cat\\s+src/game/main\\.ts(\\s|$)"
+            }
           ],
         },
         "create_directory": {
