@@ -9,16 +9,16 @@
 {
   "cli_default_open_behavior": "existing_window",
   "project_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "outline_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "git_panel": {
-    "dock": "left"
+    "dock": "left",
   },
   "inlay_hints": {
     "enabled": false,
@@ -53,29 +53,29 @@
   "icon_theme": "Catppuccin Latte",
   "agent": {
     "dock": "right",
-    "default_profile": "write",
+    "default_profile": "ask",
     "tool_permissions": {
       "tools": {
         "open": {
-          "default": "deny"
+          "default": "deny",
         },
         "terminal": {
           "always_allow": [
             {
-              "pattern": "^cd\\b"
+              "pattern": "^cd\\b",
             },
             {
-              "pattern": "^grep\\b"
+              "pattern": "^grep\\b",
             },
             {
-              "pattern": "^ls\\b"
+              "pattern": "^ls\\b",
             },
             {
-              "pattern": "^cat\\s+src/game/scenes/Game\\.ts(\\s|$)"
+              "pattern": "^cat\\s+src/game/scenes/Game\\.ts(\\s|$)",
             },
             {
-              "pattern": "^cat\\s+src/game/main\\.ts(\\s|$)"
-            }
+              "pattern": "^cat\\s+src/game/main\\.ts(\\s|$)",
+            },
           ],
         },
         "create_directory": {
@@ -134,7 +134,7 @@
   },
   "languages": {
     "Go": {
-      "show_edit_predictions": false
+      "show_edit_predictions": false,
     },
     "Django": {
       "formatter": {
@@ -151,8 +151,4 @@
       "formatter": "language_server",
     },
   },
-  // "experimental.theme_overrides": {
-  //   "editor.active_line.background": "#332f38ff",
-  //   "editor.active_line_number": "#c6414d",
-  // },
 }
