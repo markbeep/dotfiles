@@ -50,7 +50,7 @@
   "blurBorderCustomColor": "#ffffff",
   "blurBorderOpacity": 0.35,
   "wallpaperFillMode": "Fill",
-  "blurredWallpaperLayer": true,
+  "blurredWallpaperLayer": false,
   "blurWallpaperOnOverview": true,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
@@ -522,10 +522,10 @@
         }
       ],
       "spacing": 4,
-      "innerPadding": 8,
+      "innerPadding": 4,
       "bottomGap": 0,
-      "transparency": 1,
-      "widgetTransparency": 1,
+      "transparency": 0.45,
+      "widgetTransparency": 0.56,
       "squareCorners": false,
       "noBackground": false,
       "gothCornersEnabled": false,
@@ -542,7 +542,8 @@
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
-      "widgetOutlineEnabled": false
+      "widgetOutlineEnabled": false,
+      "widgetPadding": 8
     }
   ],
   "desktopClockEnabled": false,
