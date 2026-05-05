@@ -50,7 +50,11 @@
   "buffer_line_height": "standard",
   "ui_font_family": ".ZedSans",
   "buffer_font_family": "Fira Code",
-  "icon_theme": "Catppuccin Latte",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Latte"
+  },
   "agent": {
     "dock": "right",
     "default_profile": "ask",
@@ -102,9 +106,9 @@
   "ui_font_size": 16,
   "buffer_font_size": 13.0,
   "theme": {
-    "mode": "system",
+    "mode": "dark",
     "light": "One Light",
-    "dark": "Rosé Pine Moon",
+    "dark": "Catppuccin Frappé",
   },
   "lsp": {
     "vtsls": {

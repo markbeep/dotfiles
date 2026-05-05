@@ -247,6 +247,7 @@ window-rule {
     // floating terminal popup (like paruz and vscode workspace finder)
     match app-id="floating-popup"
     open-floating true
+    draw-border-with-background false
     default-window-height { fixed 400; }
     default-column-width { fixed 700; }
 }
