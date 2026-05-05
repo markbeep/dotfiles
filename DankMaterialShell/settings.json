@@ -50,7 +50,7 @@
   "blurBorderCustomColor": "#ffffff",
   "blurBorderOpacity": 0.35,
   "wallpaperFillMode": "Fill",
-  "blurredWallpaperLayer": false,
+  "blurredWallpaperLayer": true,
   "blurWallpaperOnOverview": true,
   "showLauncherButton": true,
   "showWorkspaceSwitcher": true,
