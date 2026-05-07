@@ -140,6 +140,9 @@
     "C++": {
       "show_edit_predictions": false
     },
+    "GLSL": {
+      "show_edit_predictions": false
+    },
     "Go": {
       "show_edit_predictions": false,
     },
