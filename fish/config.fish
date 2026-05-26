@@ -4,6 +4,7 @@ if status is-interactive
 
     alias v='nvim .'
     abbr vim nvim
+    alias z 'mise x -- zeditor -n .; exit'
     set -gx EDITOR nvim
 
     #set -gx PATH $HOME/.local/bin $HOME/.krew/bin $HOME/.cargo/bin $HOME/Documents/Programming/ecode/.venv/bin/ecode $PATH

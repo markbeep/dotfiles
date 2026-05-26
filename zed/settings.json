@@ -95,10 +95,10 @@
       },
     },
     "default_model": {
-      "enable_thinking": true,
       "effort": "high",
+      "enable_thinking": true,
       "provider": "copilot_chat",
-      "model": "gemini-3.1-pro-preview",
+      "model": "gpt-5.2-codex",
     },
     "favorite_models": [],
     "model_parameters": [],
@@ -137,6 +137,9 @@
     },
   },
   "languages": {
+    "C++": {
+      "show_edit_predictions": false
+    },
     "Go": {
       "show_edit_predictions": false,
     },

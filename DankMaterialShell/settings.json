@@ -13,7 +13,7 @@
   "matugenScheme": "scheme-expressive",
   "runUserMatugenTemplates": false,
   "matugenTargetMonitor": "",
-  "popupTransparency": 0.09,
+  "popupTransparency": 1,
   "dockTransparency": 1,
   "widgetBackgroundColor": "sch",
   "widgetColorMode": "default",
@@ -43,7 +43,7 @@
   "modalAnimationSpeed": 1,
   "modalCustomAnimationDuration": 150,
   "enableRippleEffects": true,
-  "blurEnabled": true,
+  "blurEnabled": false,
   "blurForegroundLayers": true,
   "blurLayerOutlineOpacity": 0.12,
   "blurBorderColor": "outline",
@@ -226,8 +226,8 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 114,
-      "lastUsed": 1777902792022,
+      "count": 150,
+      "lastUsed": 1779459026830,
       "name": "Firefox"
     }
   },

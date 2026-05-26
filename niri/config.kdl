@@ -233,6 +233,7 @@ window-rule {
     match app-id=r#"^org\.gnome\.Nautilus$"#
     match app-id=r#"^steam$"#
     match app-id=r#"^xdg-desktop-portal$"#
+    match title=r#"OpenGL"#
     open-floating true
 }
 window-rule {
