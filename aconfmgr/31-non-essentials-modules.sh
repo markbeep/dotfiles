@@ -41,3 +41,9 @@ AddPackage spotify-launcher     # Client for spotify's apt repository in Rust fo
 AddPackage --foreign ventoy-bin # A new bootable USB solution
 AddPackage gparted              # A Partition Magic clone, frontend to GNU Parted
 AddPackage qbittorrent          # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
+
+# Reverse engineering
+AddPackage ghidra               # Software reverse engineering framework
+AddPackage --foreign cline-cli  # Autonomous coding agent CLI - capable of creating/editing files, running commands, using the browser, and more.
+AddPackage --foreign ghidra-mcp # Production-ready Model Context Protocol server for Ghidra reverse engineering platform
+AddPackage --foreign pince      # A Linux reverse engineering tool inspired by Cheat Engine.

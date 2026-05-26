@@ -21,7 +21,6 @@ AddPackage starship                         # The cross-shell prompt for astrona
 AddPackage zed                              # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
 AddPackage lnav                             # A curses-based tool for viewing and analyzing log files
 
-
 # DX: installed for `cargo install jj-starship`:
 AddPackage rustup # The Rust toolchain installer
 
@@ -33,7 +32,6 @@ AddPackage usage # A specification for CLIs
 AddPackage keychain # A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
 # Pacman Helper
 AddPackage --foreign paru-git # Feature packed AUR helper
-
 
 # {{#if zyre}}
 # required for pw management. Required for Zed to maintain the github login
@@ -51,6 +49,6 @@ AddPackage wdisplays # GUI display configurator for wlroots compositors
 AddPackage --foreign tuxedo-control-center-bin # A tool to help you control performance, energy, fan and comfort settings on TUXEDO laptops.
 AddPackage --foreign tuxedo-drivers-dkms       # TUXEDO Computers kernel module drivers for keyboard, keyboard backlight & general hardware I/O using the SysFS interface
 
-# Better network applet in top bar (better than builtin from quickshell)
+# Better network applet in top bar (better than builtin from dankshell)
 AddPackage network-manager-applet # Applet for managing network connections
 # {{/if}}
