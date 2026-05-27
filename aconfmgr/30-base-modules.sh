@@ -8,6 +8,7 @@ AddPackage openssh # SSH protocol implementation for remote login, command execu
 AddPackage --foreign visual-studio-code-bin # Visual Studio Code (vscode): Editor for building and debugging modern web and cloud applications (official binary version)
 AddPackage atuin                            # Magical shell history
 AddPackage dive                             # A tool for exploring layers in a docker image
+AddPackage difftastic                       # An experimental diff tool that compares files based on their syntax
 AddPackage docker                           # Pack, ship and run any application as a lightweight container
 AddPackage docker-buildx                    # Docker CLI plugin for extended build capabilities with BuildKit
 AddPackage docker-compose                   # Fast, isolated development environments using Docker

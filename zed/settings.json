@@ -57,7 +57,7 @@
   },
   "agent": {
     "dock": "right",
-    "default_profile": "write",
+    "default_profile": "ask",
     "tool_permissions": {
       "tools": {
         "open": {
