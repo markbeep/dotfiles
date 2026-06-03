@@ -15,12 +15,6 @@ if status is-interactive
     abbr duw 'docker compose watch --no-up & docker compose up --build'
     abbr d docker
 
-    # silverblue specific
-    abbr db distrobox
-    abbr dbc distrobox create --name
-    abbr fp flatpak
-    abbr ro rpm-ostree
-
     # arch specific
     # fzf for pacman
     abbr pc "pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"

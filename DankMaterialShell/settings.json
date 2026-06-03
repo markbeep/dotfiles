@@ -226,16 +226,16 @@
   "browserPickerViewMode": "grid",
   "browserUsageHistory": {
     "firefox": {
-      "count": 153,
-      "lastUsed": 1779797760660,
+      "count": 192,
+      "lastUsed": 1780320600019,
       "name": "Firefox"
     }
   },
   "appPickerViewMode": "grid",
   "filePickerUsageHistory": {
     "firefox": {
-      "count": 3,
-      "lastUsed": 1777065799788,
+      "count": 11,
+      "lastUsed": 1780066341657,
       "name": "Firefox"
     }
   },
@@ -314,7 +314,10 @@
   "brightnessDevicePins": {},
   "wifiNetworkPins": {},
   "bluetoothDevicePins": {
-    "preferredDevice": "20:18:5B:0C:4C:D9"
+    "preferredDevice": [
+      "14:14:7D:A7:CD:A7",
+      "20:18:5B:0C:4C:D9"
+    ]
   },
   "audioInputDevicePins": {},
   "audioOutputDevicePins": {},
