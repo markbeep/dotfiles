@@ -1,0 +1,13 @@
+{
+  "$schema": "https://app.kilo.ai/config.json",
+  "mcp": {
+    "ghidra-mcp": {
+      "type": "local",
+      "command": ["python", "/opt/ghidra-mcp/bridge_mcp_ghidra.py"],
+      "enabled": false
+    }
+  },
+  "permission": {
+    "bash": "allow"
+  }
+}

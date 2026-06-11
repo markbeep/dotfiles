@@ -9,6 +9,7 @@ depends = [
     "git",
     "hister",
     "jj",
+    "kilo",
     "kitty",
     "kubectl",
     "nvim",
@@ -57,6 +58,9 @@ gitconfig = "~/.gitconfig"
 [jj.files]
 jj = { type = "symbolic", target = "~/.config/jj", recurse = false }
 "dotfiles-private/jj/conf.d/user.toml" = "~/.config/jj/conf.d/user.toml"
+
+[kilo.files]
+"kilo.json" = "~/.config/kilo/kilo.json"
 
 [kitty.files]
 kitty = "~/.config/kitty"
