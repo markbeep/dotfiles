@@ -8,3 +8,6 @@ disabled = true
 
 [git_status]
 disabled = true
+
+[git_commit]
+disabled = true

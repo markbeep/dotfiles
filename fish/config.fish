@@ -108,6 +108,19 @@ if status is-interactive
         end
     end
 
+    function rr
+        set -l rev $argv[1]
+        if test -z "$rev"
+            set rev "@"
+        end
+
+        set -l sha (jj show $rev -T "commit_id.short()" --no-patch)
+
+        if test -n "$sha"
+            command roborev review --sha $sha
+        end
+    end
+
     function initdev -d "Create .devcontainer dir, JSON file and empty Dockerfile"
         mkdir .devcontainer -p
         touch .devcontainer/Dockerfile
