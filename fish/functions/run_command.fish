@@ -2,11 +2,12 @@ function run_command --description 'Select what custom fzf command to run using,
     # Define commands as name=command pairs
     # NOTE: arrow is a single '→' character
     set commands \
-        "Install package → paruz" \
-        "Open VSC workspace → vscode_open" \
-        "Open Zed workspace → zed_open" \
-        "Open linkding bookmark → ld_open" \
-        "Reload touchpad kernel → reload_touchpad"
+        "Install package          → paruz" \
+        "Open VSC workspace       → vscode_open" \
+        "Open Zed workspace       → zed_open" \
+        "Open workspace directory → dir_open" \
+        "Open linkding bookmark   → ld_open" \
+        "Reload touchpad kernel   → reload_touchpad"
 
     # Use fzf to select a command (showing the pretty names)
     set selection (printf '%s\n' $commands | fzf --prompt="Select a command: ")

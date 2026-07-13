@@ -1,4 +1,4 @@
-function zed_open --description "Shows all directories in ~/Documents, enters directory and loads the existing environment."
+function dir_open --description "Shows all directories in ~/Documents, then opens the directory."
     # - Initial fzf is sorted most recent edited. Most recent at the bottom.
     # - sed to shorten the path
     # - awk colors the final directory blue and bold
@@ -13,6 +13,6 @@ function zed_open --description "Shows all directories in ~/Documents, enters di
     if test -n "$directory"
         set -l clean_dir (string replace -ra '\e\[[0-9;]*m' '' -- "$directory")
         set -l formatted (echo "$clean_dir" | sed 's|^~/D/|/home/mark/Documents/|')
-        sh -c "cd '$formatted' && mise x -- zeditor --new ."
+        yeet kitty "$formatted"
     end
 end
