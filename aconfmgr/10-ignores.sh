@@ -7,7 +7,7 @@ IgnorePath '/boot/grub/*'
 IgnorePath '/efi/*'
 # Certificate databases
 IgnorePath '/etc/ca-certificates/extracted/*'
-IgnorePath '/etc/ssl/certs/*'
+IgnorePath '/etc/ssl/*'
 IgnorePath '/etc/pacman.d/gnupg/*'
 # Cache and generated files
 IgnorePath '/etc/*.cache'

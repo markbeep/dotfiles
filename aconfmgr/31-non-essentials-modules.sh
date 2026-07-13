@@ -16,6 +16,12 @@ AddPackage ncdu                   # Disk usage analyzer with an ncurses interfac
 AddPackage waypipe                # A proxy for Wayland protocol applications; like ssh -X
 AddPackage zip                    # Compressor/archiver for creating and modifying zipfiles
 
+# Non-essential DX
+AddPackage --foreign jjui-bin    # Text User Interface (TUI) designed for interacting with the Jujutsu version control system.
+AddPackage --foreign roborev-bin # Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code.
+AddPackage dive                  # A tool for exploring layers in a docker image
+AddPackage lnav                  # A curses-based tool for viewing and analyzing log files
+
 # Added/required for layzvim
 AddPackage lazygit # Simple terminal UI for git commands
 AddPackage neovim  # Fork of Vim aiming to improve user experience, plugins, and GUIs
@@ -47,3 +53,7 @@ AddPackage ghidra               # Software reverse engineering framework
 AddPackage --foreign ghidra-mcp # Production-ready Model Context Protocol server for Ghidra reverse engineering platform
 AddPackage --foreign kilo-bin   # The AI coding agent built for the terminal.
 AddPackage --foreign pince      # A Linux reverse engineering tool inspired by Cheat Engine.
+
+# Game Dev
+AddPackage krita                        # Edit and paint images
+AddPackage --foreign gamemaker-beta-bin # Make a game with GameMaker, the best free video game engine. Perfect for beginners and professionals.

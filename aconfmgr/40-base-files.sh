@@ -9,9 +9,6 @@ CopyFile /etc/issue
 # https://docs.oracle.com/cd/E19455-01/806-1387/anis1-8/index.html
 CreateLink /var/yp/nicknames /etc/nicknames
 
-# Podman registries
-CopyFile /etc/containers/registries.conf
-
 # Printer settings on KDE
 CreateFile /etc/cups/classes.conf.O 600 '' cups > /dev/null
 CopyFile /etc/cups/classes.conf 600
