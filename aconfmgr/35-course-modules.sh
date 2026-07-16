@@ -3,6 +3,7 @@ AddPackage --foreign zoom # Video Conferencing and Web Conferencing Service
 AddPackage drawio-desktop # Official Electron build of draw.io
 
 # -------------- Master Thesis --------------
+AddPackage clang   # C language family frontend for LLVM
 AddPackage iftop   # Display bandwidth usage on an interface
 AddPackage ansible # Official assortment of Ansible collections
 AddPackage bpf     # BPF tools

@@ -30,7 +30,6 @@ AddPackage xdg-desktop-portal-gtk                        # A backend implementat
 AddPackage xwayland-satellite                            # Xwayland outside your Wayland
 
 CopyFile /etc/bluetooth/main.conf
-CopyFile /etc/bluetooth/main.conf.pacnew
 CreateLink /etc/systemd/system/bluetooth.target.wants/bluetooth.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/dbus-org.bluez.service /usr/lib/systemd/system/bluetooth.service
 CreateLink /etc/systemd/system/multi-user.target.wants/tccd.service /usr/lib/systemd/system/tccd.service

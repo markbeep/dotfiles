@@ -18,9 +18,7 @@ AddPackage kubeseal                         # A Kubernetes controller and tool f
 AddPackage podman                           # Tool and library for running OCI-based containers in pods
 AddPackage starship                         # The cross-shell prompt for astronauts
 AddPackage zed                              # A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter
-
-# DX: installed for `cargo install jj-starship`:
-AddPackage rustup # The Rust toolchain installer
+AddPackage --foreign jj-starship-git        # Unified Git/JJ Starship prompt module
 
 # DX: local development. 'usage' required for mise
 AddPackage mise  # The front-end to your dev env
@@ -49,4 +47,9 @@ AddPackage --foreign tuxedo-drivers-dkms       # TUXEDO Computers kernel module 
 
 # Better network applet in top bar (better than builtin from dankshell)
 AddPackage network-manager-applet # Applet for managing network connections
+
+# Niri Screensharing Testing (INCOMPLETE)
+AddPackage obs-studio # Free, open source software for live streaming and recording
+AddPackage xdg-desktop-portal-gnome # Backend implementation for xdg-desktop-portal for the GNOME desktop environment
+AddPackage xdg-desktop-portal-wlr # xdg-desktop-portal backend for wlroots
 # {{/if}}

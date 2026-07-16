@@ -28,6 +28,7 @@ AddPackage neovim  # Fork of Vim aiming to improve user experience, plugins, and
 
 # Networking
 AddPackage --foreign nmap-netcat # Use nmap's ncat as netcat
+AddPackage lsof                  # Lists open files for running Unix processes
 AddPackage nmap                  # Utility for network discovery and security auditing
 AddPackage tcpdump               # Powerful command-line packet analyzer
 AddPackage traceroute            # Tracks the route taken by packets over an IP network
