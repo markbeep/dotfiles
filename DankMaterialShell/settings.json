@@ -610,14 +610,7 @@
   "displayProfileAutoSelect": false,
   "displayShowDisconnected": false,
   "displaySnapToEdge": true,
-  "connectedFrameBarStyleBackups": {
-    "default": {
-      "shadowIntensity": 0,
-      "squareCorners": false,
-      "gothCornersEnabled": false,
-      "borderEnabled": false
-    }
-  },
+  "connectedFrameBarStyleBackups": {},
   "barConfigs": [
     {
       "id": "default",
@@ -799,7 +792,7 @@
   ],
   "launcherPluginVisibility": {},
   "launcherPluginOrder": [],
-  "frameEnabled": true,
+  "frameEnabled": false,
   "frameThickness": 16,
   "frameRounding": 23,
   "frameColor": "",

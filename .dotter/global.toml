@@ -14,6 +14,7 @@ depends = [
     "kubectl",
     "nvim",
     "mise",
+    "roborev",
     "ssh",
     "starship",
     "zed",
@@ -73,6 +74,9 @@ nvim = "~/.config/nvim"
 
 [mise.files]
 "mise.config.toml" = "~/.config/mise/mise.toml"
+
+[roborev.files]
+"roborev.toml" = "~/.roborev/config.toml"
 
 [ssh.files]
 "dotfiles-private/ssh" = "~/.ssh/config"
