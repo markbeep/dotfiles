@@ -3,6 +3,7 @@ AddPackage --foreign dotter-rs-bin # A dotfile manager and templater written in 
 
 # SSH
 AddPackage openssh # SSH protocol implementation for remote login, command execution and file transfer
+AddPackage screen  # Full-screen window manager that multiplexes a physical terminal
 
 # DX
 AddPackage atuin                            # Magical shell history
