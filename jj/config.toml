@@ -15,11 +15,9 @@
 default-command = "log"
 
 [aliases]
-tug = ["bookmark", "move", "--from", "heads(::@- & bookmarks())", "--to", "@-"]
 e = ["edit"]
 f = ["git", "fetch"]
 difft = ["diff", "--config", 'ui.diff-formatter=["difft", "--color=always", "$left", "$right"]']
 
-[revset-aliases]
-# Additionally makes any non-trunk pushed/remote branches immutable as well
-#"immutable_heads()" = "builtin_immutable_heads() | remote_bookmarks()"
+[revsets]
+bookmark-advance-to = '@-'

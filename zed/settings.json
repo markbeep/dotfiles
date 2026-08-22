@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_edit_predictions": true,
+  "auto_signature_help": false,
+  "format_on_save": "on",
   "diff_view_style": "split",
   "cli_default_open_behavior": "existing_window",
   "project_panel": {
@@ -46,7 +49,7 @@
   },
   "file_types": {
     "Dockerfile": ["*Dockerfile*"],
-    "Django": ["*.j2", "*.html", "*.jinja"],
+    "Django": ["*.j2", "*.jinja"],
   },
   "buffer_line_height": "standard",
   "ui_font_family": ".ZedSans",
@@ -138,6 +141,9 @@
     },
   },
   "languages": {
+    "LaTeX": {
+      "show_edit_predictions": true
+    },
     "C++": {
       "show_edit_predictions": false,
     },

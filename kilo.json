@@ -3,11 +3,17 @@
   "mcp": {
     "ghidra-mcp": {
       "type": "local",
-      "command": ["python", "/opt/ghidra-mcp/bridge_mcp_ghidra.py"],
+      "command": [
+        "python",
+        "/opt/ghidra-mcp/bridge_mcp_ghidra.py"
+      ],
       "enabled": false
     }
   },
   "permission": {
     "bash": "allow"
+  },
+  "indexing": {
+    "enabled": false
   }
 }
