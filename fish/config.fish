@@ -19,7 +19,7 @@ if status is-interactive
     # fzf for pacman
     abbr pc "pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
     abbr yc "yay -Slq | fzf --multi --preview 'yay -Si {1}' | xargs -ro yay -S"
-    alias c "fish -c 'cd ~/.config/aconfmgr && nvim .'"
+    alias c "fish -c 'cd ~/.dotfiles && z'"
     alias dots "fish -c 'cd ~/.dotfiles && dotter deploy'"
     abbr aconfsave "dots && aconfmgr save"
 
@@ -48,7 +48,19 @@ if status is-interactive
     kubectl completion fish | source
     mise activate fish | source
     # hister completion fish | source
+
+    if type -q zmx
+      zmx completions fish | source
+    end
+    if command -q zmx; and test -z "$ZMX_SESSION"
+        set -l count (zmx ls --short 2>/dev/null | count)
+        if test $count -gt 0
+            echo "zmx: $count session(s) active — `zmx-select` to attach" >&2
+        end
+    end
 end
+
+
 
 # Small Function Definitions
 

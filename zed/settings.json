@@ -142,7 +142,13 @@
   },
   "languages": {
     "LaTeX": {
-      "show_edit_predictions": true
+      "show_edit_predictions": true,
+      "formatter": {
+        "external": {
+          "command": "tex-fmt",
+          "arguments": ["--wraplen", "100", "--stdin"],
+        },
+      },
     },
     "C++": {
       "show_edit_predictions": false,
