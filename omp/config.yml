@@ -1,0 +1,46 @@
+modelRoles:
+  default: deepseek/deepseek-flash
+  web: web/public
+symbolPreset: nerd
+composer:
+  shape: pi
+theme:
+  dark: titanium
+  light: light
+setupVersion: 2
+advisor:
+  enabled: false
+tier:
+  advisor: none
+retry:
+  fallbackChains:
+    web:
+      - web/perplexity
+      - google/gemini-2.5-flash
+      - anthropic/claude-haiku-4-5
+      - openai-codex/gpt-5.6-luna
+      - xai/grok-4.5
+      - web/zai
+      - web/exa
+      - web/tinyfish
+      - web/jina
+      - web/tavily
+      - web/firecrawl
+      - web/brave
+      - web/kimi
+      - web/parallel
+      - web/synthetic
+      - web/searxng
+      - web/startpage
+      - web/duckduckgo
+      - web/ecosia
+      - web/google
+      - web/mojeek
+      - web/public
+      - google-antigravity/gemini-2.5-flash
+      - openai-codex/gpt-5.6
+      - openai-codex/gpt-5.5
+      - xai-oauth/grok-4.5
+      - web/ollama
+dev:
+  autoqaConsent: granted

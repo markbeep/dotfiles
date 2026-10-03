@@ -19,7 +19,7 @@ if status is-interactive
     # fzf for pacman
     abbr pc "pacman -Slq | fzf --multi --preview 'pacman -Si {1}' | xargs -ro sudo pacman -S"
     abbr yc "yay -Slq | fzf --multi --preview 'yay -Si {1}' | xargs -ro yay -S"
-    alias c "fish -c 'cd ~/.dotfiles && z'"
+    alias c "fish -c 'cd ~/.dotfiles && zeditor -n .'; exit"
     alias dots "fish -c 'cd ~/.dotfiles && dotter deploy'"
     abbr aconfsave "dots && aconfmgr save"
 
@@ -120,19 +120,6 @@ function rm-ex -d "Delete all files except the one specified"
         if test "$file" != "." -a "$file" != ".." -a "$file" != "$argv"
             rm -r $file
         end
-    end
-end
-
-function rr
-    set -l rev $argv[1]
-    if test -z "$rev"
-        set rev "@"
-    end
-
-    set -l sha (jj show $rev -T "commit_id.short()" --no-patch)
-
-    if test -n "$sha"
-        command roborev review --sha $sha
     end
 end
 

@@ -1,9 +1,10 @@
-# Study Tools
-AddPackage anki               # A smart spaced repetition flashcard program
-AddPackage obsidian           # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+# Productive Tools
+AddPackage anki        # A smart spaced repetition flashcard program
+AddPackage obsidian    # A powerful knowledge base that works on top of a local folder of plain text Markdown files
+AddPackage thunderbird # Standalone mail and news reader from mozilla.org
+AddPackage typst       # A markup-based typesetting system for the sciences
 
 # Nice to have terminal tools
-AddPackage --foreign hister-bin   # Web history on steroids - blazing fast, content-based search for visited websites
 AddPackage --foreign linkding-cli # A CLI to interact with a linkding instance
 AddPackage bat                    # Cat clone with syntax highlighting and git integration
 AddPackage btop                   # A monitor of system resources, bpytop ported to C++
@@ -17,10 +18,12 @@ AddPackage waypipe                # A proxy for Wayland protocol applications; l
 AddPackage zip                    # Compressor/archiver for creating and modifying zipfiles
 
 # Non-essential DX
-AddPackage --foreign jjui-bin    # Text User Interface (TUI) designed for interacting with the Jujutsu version control system.
-AddPackage --foreign roborev-bin # Continuous background code review database for agents, work faster and smarter with accountability for every line of generated code.
-AddPackage dive                  # A tool for exploring layers in a docker image
-AddPackage lnav                  # A curses-based tool for viewing and analyzing log files
+AddPackage --foreign jjui-bin # Text User Interface (TUI) designed for interacting with the Jujutsu version control system.
+AddPackage --foreign oh-my-pi # A coding agent with the IDE wired in
+AddPackage --foreign zmx-bin  # Session persistence for terminal processes
+AddPackage dive               # A tool for exploring layers in a docker image
+AddPackage lnav               # A curses-based tool for viewing and analyzing log files
+AddPackage k9s                # TUI for managing Kubernetes clusters and pods
 
 # Added/required for layzvim
 AddPackage lazygit # Simple terminal UI for git commands
@@ -28,7 +31,6 @@ AddPackage neovim  # Fork of Vim aiming to improve user experience, plugins, and
 
 # Networking
 AddPackage --foreign nmap-netcat # Use nmap's ncat as netcat
-AddPackage lsof                  # Lists open files for running Unix processes
 AddPackage nmap                  # Utility for network discovery and security auditing
 AddPackage tcpdump               # Powerful command-line packet analyzer
 AddPackage traceroute            # Tracks the route taken by packets over an IP network
@@ -52,9 +54,9 @@ AddPackage qbittorrent          # An advanced BitTorrent client programmed in C+
 # Reverse engineering
 AddPackage ghidra               # Software reverse engineering framework
 AddPackage --foreign ghidra-mcp # Production-ready Model Context Protocol server for Ghidra reverse engineering platform
-AddPackage --foreign kilo-bin   # The AI coding agent built for the terminal.
 AddPackage --foreign pince      # A Linux reverse engineering tool inspired by Cheat Engine.
 
 # Game Dev
 AddPackage krita                        # Edit and paint images
+AddPackage godot                        # Advanced cross-platform 2D and 3D game engine
 AddPackage --foreign gamemaker-beta-bin # Make a game with GameMaker, the best free video game engine. Perfect for beginners and professionals.

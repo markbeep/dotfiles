@@ -7,6 +7,13 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "omp": {
+      "command": "omp",
+      "args": ["acp"],
+      "type": "custom",
+    },
+  },
   "show_edit_predictions": true,
   "auto_signature_help": false,
   "format_on_save": "on",
@@ -102,7 +109,7 @@
       "effort": "high",
       "enable_thinking": true,
       "provider": "deepseek",
-      "model": "deepseek-v4-pro",
+      "model": "deepseek-v4-flash",
     },
     "favorite_models": [],
     "model_parameters": [],

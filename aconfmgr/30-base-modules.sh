@@ -30,6 +30,9 @@ AddPackage keychain # A front-end to ssh-agent, allowing one long-running ssh-ag
 # Pacman Helper
 AddPackage --foreign paru-git # Feature packed AUR helper
 
+# Fonts
+AddPackage ttf-carlito # Google's Carlito font
+
 # {{#if zyre}}
 # required for pw management. Required for Zed to maintain the github login
 AddPackage gnome-keyring # Stores passwords (required for Zed to maintain the github login)

@@ -9,12 +9,11 @@ depends = [
     "git",
     "hister",
     "jj",
-    "kilo",
     "kitty",
     "kubectl",
     "nvim",
     "mise",
-    "roborev",
+    "omp",
     "ssh",
     "starship",
     "zed",
@@ -60,9 +59,6 @@ gitconfig = "~/.gitconfig"
 jj = { type = "symbolic", target = "~/.config/jj", recurse = false }
 "dotfiles-private/jj/conf.d/user.toml" = "~/.config/jj/conf.d/user.toml"
 
-[kilo.files]
-"kilo.json" = "~/.config/kilo/kilo.json"
-
 [kitty.files]
 kitty = "~/.config/kitty"
 
@@ -75,8 +71,8 @@ nvim = "~/.config/nvim"
 [mise.files]
 "mise.config.toml" = "~/.config/mise/mise.toml"
 
-[roborev.files]
-"roborev.toml" = "~/.roborev/config.toml"
+[omp.files]
+"omp" = "~/.omp/agent"
 
 [ssh.files]
 "dotfiles-private/ssh" = "~/.ssh/config"

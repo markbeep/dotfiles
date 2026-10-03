@@ -280,6 +280,8 @@ AddPackage solaar                      # Linux device manager for a wide range o
 AddPackage spectacle                   # KDE screenshot capture utility
 AddPackage xdg-desktop-portal-kde      # A backend implementation for xdg-desktop-portal using Qt/KF5
 
+SetFileProperty / mode 555
+
 # {{else if zyre}}
 CreateLink /etc/systemd/user/default.target.wants/xdg-user-dirs-update.service /usr/lib/systemd/user/xdg-user-dirs-update.service
 CopyFile /etc/systemd/system/paccache.service

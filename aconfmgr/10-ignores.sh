@@ -9,6 +9,7 @@ IgnorePath '/efi/*'
 IgnorePath '/etc/ca-certificates/extracted/*'
 IgnorePath '/etc/ssl/*'
 IgnorePath '/etc/pacman.d/gnupg/*'
+IgnorePath '/etc/tpm2-tss/*'
 # Cache and generated files
 IgnorePath '/etc/*.cache'
 IgnorePath '/etc/*.gen'
