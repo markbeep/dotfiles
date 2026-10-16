@@ -1,5 +1,5 @@
 [otis]
-depends = ["default", "legendary", "plasma"]
+depends = ["default", "legendary"]
 
 [otis.variables]
 otis = true

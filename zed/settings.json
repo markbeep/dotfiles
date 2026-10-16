@@ -109,7 +109,7 @@
       "effort": "high",
       "enable_thinking": true,
       "provider": "deepseek",
-      "model": "deepseek-v4-flash",
+      "model": "deepseek-flash",
     },
     "favorite_models": [],
     "model_parameters": [],

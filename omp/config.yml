@@ -44,3 +44,4 @@ retry:
       - web/ollama
 dev:
   autoqaConsent: granted
+hideThinkingBlock: false
