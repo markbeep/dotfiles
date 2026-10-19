@@ -15,7 +15,9 @@ AddPackage --foreign opentrack # Head tracking software
 AddPackage mumble # An Open Source, low-latency, high quality voice chat software (client)
 
 # Games / Programs
-AddPackage --foreign mindustry # A sandbox tower defense game
+AddPackage prismlauncher                # Minecraft launcher with ability to manage multiple instances
+AddPackage --foreign mindustry          # A sandbox tower defense game
+AddPackage --foreign minecraft-launcher # Official Minecraft Launcher
 # {{/if }}
 
 # Compatibility

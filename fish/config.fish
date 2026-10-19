@@ -7,7 +7,7 @@ if status is-interactive
     alias z 'mise x -- zeditor -n .; exit'
     set -gx EDITOR nvim
 
-    #set -gx PATH $HOME/.local/bin $HOME/.krew/bin $HOME/.cargo/bin $HOME/Documents/Programming/ecode/.venv/bin/ecode $PATH
+    set -gx PATH $HOME/.local/bin $HOME/.krew/bin $HOME/.cargo/bin $HOME/Documents/Programming/ecode/.venv/bin/ecode $PATH
     set -q KREW_ROOT; and set -gx PATH $PATH $KREW_ROOT/.krew/bin; or set -gx PATH $PATH $HOME/.krew/bin
 
     abbr dup 'docker compose up --build'

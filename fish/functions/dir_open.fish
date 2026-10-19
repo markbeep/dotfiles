@@ -13,6 +13,6 @@ function dir_open --description "Shows all directories in ~/Documents, then open
     if test -n "$directory"
         set -l clean_dir (string replace -ra '\e\[[0-9;]*m' '' -- "$directory")
         set -l formatted (echo "$clean_dir" | sed 's|^~/D/|/home/mark/Documents/|')
-        yeet kitty "$formatted"
+        kitty --detach --directory "$formatted"
     end
 end

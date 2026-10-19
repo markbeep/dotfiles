@@ -28,7 +28,8 @@ AddPackage usage # A specification for CLIs
 # Required for ssh-agent to run and vscode to be able to use git credentials in dev containers
 AddPackage keychain # A front-end to ssh-agent, allowing one long-running ssh-agent process per system, rather than per login
 # Pacman Helper
-AddPackage --foreign paru-git # Feature packed AUR helper
+AddPackage paru # Feature packed AUR helper
+
 
 # Fonts
 AddPackage ttf-carlito # Google's Carlito font

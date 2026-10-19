@@ -1,5 +1,6 @@
 # Do 25 Sep 2025 19:07:00 CEST - Base packages
 
+AddPackage --foreign kgamma            # Adjust your monitor gamma settings
 AddPackage --foreign maliit-keyboard   # Virtual keyboard based on Maliit framework
 AddPackage --foreign splix             # CUPS drivers for SPL (Samsung Printer Language) printers
 AddPackage accountsservice             # D-Bus interface for user account query and manipulation
@@ -90,7 +91,6 @@ AddPackage kdeconnect                  # Adds communication between KDE and your
 AddPackage kdegraphics-thumbnailers    # Thumbnailers for various graphics file formats
 AddPackage kdenetwork-filesharing      # Properties dialog plugin to share a directory with the local network
 AddPackage kernel-install-for-dracut   # Enables systemd-boot automation using kernel-install with dracut
-AddPackage kgamma                      # Adjust your monitor gamma settings
 AddPackage kimageformats               # Image format plugins for Qt 6
 AddPackage kio-admin                   # Manage files as administrator using the admin:// KIO protocol
 AddPackage kio-fuse                    # FUSE interface for KIO
@@ -274,7 +274,6 @@ AddPackage plasma-nm                   # Plasma applet written in QML for managi
 AddPackage plasma-pa                   # Plasma applet for audio volume management using PulseAudio
 AddPackage plasma-systemmonitor        # An interface for monitoring system sensors, process information and other system resources
 AddPackage plasma-workspace            # KDE Plasma Workspace
-AddPackage plasma-x11-session          # Plasma X11 session
 AddPackage powerdevil                  # Manages the power consumption settings of a Plasma Shell
 AddPackage solaar                      # Linux device manager for a wide range of Logitech devices
 AddPackage spectacle                   # KDE screenshot capture utility

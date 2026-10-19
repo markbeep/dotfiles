@@ -52,11 +52,14 @@ AddPackage gparted              # A Partition Magic clone, frontend to GNU Parte
 AddPackage qbittorrent          # An advanced BitTorrent client programmed in C++, based on Qt toolkit and libtorrent-rasterbar
 
 # Reverse engineering
-AddPackage ghidra               # Software reverse engineering framework
-AddPackage --foreign ghidra-mcp # Production-ready Model Context Protocol server for Ghidra reverse engineering platform
-AddPackage --foreign pince      # A Linux reverse engineering tool inspired by Cheat Engine.
+AddPackage ghidra          # Software reverse engineering framework
+AddPackage --foreign pince # A Linux reverse engineering tool inspired by Cheat Engine.
 
 # Game Dev
 AddPackage krita                        # Edit and paint images
 AddPackage godot                        # Advanced cross-platform 2D and 3D game engine
 AddPackage --foreign gamemaker-beta-bin # Make a game with GameMaker, the best free video game engine. Perfect for beginners and professionals.
+
+# Video / Photo
+AddPackage --foreign photocraft # vibe coded clean-room reimplementation of Adobe Photoshop
+AddPackage --foreign vidcutter # Modern, simple to use, constantly evolving and hella fast media cutter + joiner with frame-accurate SmartCut technology
