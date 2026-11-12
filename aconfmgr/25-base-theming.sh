@@ -14,8 +14,8 @@ AddPackage adw-gtk-theme                                 # Unofficial GTK 3 port
 AddPackage brightnessctl                                 # Lightweight brightness control tool
 AddPackage cli11                                         # Command line parser for C++11
 AddPackage cmake                                         # A cross-platform open-source make system
-AddPackage dgop                                          # System monitoring CLI + REST API
-AddPackage dms-shell                                     # A Quickshell-based desktop shell with Material 3 design principles
+AddPackage dux-gop                                       # System monitoring CLI + REST API
+AddPackage dux-shell                                     # A Quickshell-based desktop shell with Material 3 design principles
 AddPackage gammastep                                     # Adjust the color temperature of your screen according to your surroundings.
 AddPackage go                                            # Core compiler tools for the Go programming language
 AddPackage inter-font                                    # A typeface specially designed for user interfaces

@@ -31,9 +31,11 @@ AddPackage neovim  # Fork of Vim aiming to improve user experience, plugins, and
 
 # Networking
 AddPackage --foreign nmap-netcat # Use nmap's ncat as netcat
+AddPackage lsof                  # Lists open files for running Unix processes
 AddPackage nmap                  # Utility for network discovery and security auditing
 AddPackage tcpdump               # Powerful command-line packet analyzer
 AddPackage traceroute            # Tracks the route taken by packets over an IP network
+
 
 # Languages
 AddPackage --foreign jsonnet # The data templating language
@@ -57,7 +59,6 @@ AddPackage --foreign pince # A Linux reverse engineering tool inspired by Cheat 
 
 # Game Dev
 AddPackage krita                        # Edit and paint images
-AddPackage godot                        # Advanced cross-platform 2D and 3D game engine
 AddPackage --foreign gamemaker-beta-bin # Make a game with GameMaker, the best free video game engine. Perfect for beginners and professionals.
 
 # Video / Photo
