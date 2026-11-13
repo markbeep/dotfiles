@@ -3,7 +3,7 @@ function omp
     set -l omp_args
 
     for arg in $argv
-        if test "$arg" = "--no-sandbox"
+        if test "$arg" = --no-sandbox
             set no_sandbox 1
         else
             set -a omp_args $arg
@@ -37,6 +37,7 @@ function omp
         --bind-try "$HOME/.npm" "$HOME/.npm" \
         --bind-try "$HOME/.rustup" "$HOME/.rustup" \
         --bind-try "$HOME/.bun" "$HOME/.bun" \
+        --bind-try "$HOME/.impeccable" "$HOME/.impeccable" \
         --bind-try "$HOME/.local/state" "$HOME/.local/state" \
         --bind-try "$HOME/.local/share/pnpm" "$HOME/.local/share/pnpm" \
         --bind-try "$HOME/.local/share/uv" "$HOME/.local/share/uv" \
